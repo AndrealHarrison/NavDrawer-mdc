@@ -35,6 +35,12 @@ public class HomeFragment extends Fragment {
         mGallery3 = (Button) root.findViewById(R.id.button3);
 
         mGallery1.setOnClickListener(v -> {
+            galleryItemButtonClick(v, 1);
+        });
+        mGallery2.setOnClickListener(v -> {
+            galleryItemButtonClick(v, 2);
+        });
+        mGallery3.setOnClickListener(v -> {
             galleryItemButtonClick(v, 3);
         });
 
